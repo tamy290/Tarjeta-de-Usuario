@@ -1,0 +1,37 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.encabezado{
+    height: 70px;
+    background-color:rgb(12, 48, 48) ;
+    position: relative;
+}
+
+.usuario{
+    width: 60px;
+    position: relative;
+    top: 40px;
+    left: 15px;
+    border: 2px solid rgb(189, 183, 183);
+    border-radius: 50%;
+}
+
+.cuerpo{
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    border: 2px solid rgb(189, 183, 183);
+}
+.ubicacion, .perfil{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.marcador{
+    width: 12px;
+}
+.tarjeta{
+    width: 500px;
+    height: 200px;
+}
